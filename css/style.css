@@ -5,6 +5,7 @@
         font-size: 100%;
         color: #053146;
         background-color: #F6F6F6;
+        text-transform: capitalize;
     }
     
     *,
@@ -776,7 +777,7 @@
     
     .cookieConsentContainer .cookieButton a:hover {
         cursor: pointer;
-        background: ##053146;
+        background: #053146;
     }
     
     .footer-one {
@@ -10992,7 +10993,7 @@
             color: #BCBEC0
         }
         .log-builder-editor p a {
-            color: #bcd5d8
+            color: #BCBEC0
         }
         .register-builder-content-wrapper {
             display: flex;
@@ -11017,7 +11018,10 @@
     
     .pageSection-blue {
         background-color: #2b9fbb;
-        ;
+    }
+    
+    .pageSection-dblue {
+        background-color: #053146;
     }
     
     .pageSection-blue p {
@@ -11030,6 +11034,24 @@
         margin-left: 70px;
     }
     
+    .pageSection-yllw p,
+    .pageSection-dblue p {
+        text-align: justify;
+        width: 100%;
+        font-size: 19px;
+        line-height: 36px;
+        color: #fff;
+        font-family: "montserrat-light";
+        margin-left: 100px;
+    }
+    
+    .pageSection-yllw p,
+    .pageSection-yllw h2 {
+        color: #053146!important;
+    }
+    
+    .pageSection-yllw .testimonials-box,
+    .pageSection-dblue .testimonials-box,
     .pageSection-blue .testimonials-box {
         width: 1300px;
     }
@@ -11089,4 +11111,26 @@
         -moz-transition: .3s all ease-out;
         -o-transition: .3s all ease-out;
         transition: .3s all ease-out
+    }
+    
+    .serv1-span {
+        margin: 0px 50px 0 0;
+        font-size: 22px;
+        font-weight: bold;
+        font-family: "playfair-regular";
+        color: #2b9fbb;
+        text-transform: capitalize;
+        line-height: 34px;
+        margin-left: -50px;
+    }
+    
+    .serv2-span {
+        margin: 0px 50px 0 0;
+        font-size: 22px;
+        font-weight: bold;
+        font-family: "playfair-regular";
+        color: #fdca40;
+        text-transform: capitalize;
+        line-height: 34px;
+        margin-left: -50px;
     }
