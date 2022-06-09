@@ -4,7 +4,7 @@
         position: relative;
         font-size: 100%;
         color: #053146;
-        background-color: #F6F6F6;
+        background-color: #f1f1f1;
         text-transform: capitalize;
     }
     
@@ -88,7 +88,8 @@
         left: 0;
         right: 0;
         width: 100%;
-        z-index: 100
+        z-index: 100;
+        background: rgba(0, 0, 0, 0.2);
     }
     
     @media (max-width: 1023px) {
@@ -191,7 +192,8 @@
     }
     
     .navigation .header-nav-menu li a {
-        color: #fdca40;
+        color: #fff;
+        font-weight: bold;
         font-size: 20px;
         line-height: 24px;
         font-family: "montserrat-bold";
@@ -312,7 +314,7 @@
     
     .search-box {
         position: relative;
-        width: 100%
+        width: 100% backgroung: red;
     }
     
     .searchbox {
@@ -709,7 +711,7 @@
     }
     
     .navigation-user a::before {
-        background: ##053146;
+        background: #053146;
         ;
         content: '';
         height: 100%;
@@ -901,7 +903,7 @@
     }
     
     .footer-two {
-        background: ##053146;
+        background: #053146;
         ;
         padding: 60px 0 75px 0;
         margin-top: 80px
@@ -983,7 +985,7 @@
     }
     
     .button:hover {
-        background-color: ##053146;
+        background-color: #053146;
     }
     
     .buttonBig {
@@ -1011,7 +1013,7 @@
     }
     
     .load-more:hover {
-        background-color: ##053146;
+        background-color: #053146;
     }
     
     @-webkit-keyframes scroll {
@@ -1827,7 +1829,7 @@
             height: 100vh
         }
         .pageSection-halfWidth {
-            flex: 0 0 40vw;
+            flex: 0 0 20vw;
             height: 100vh
         }
     }
@@ -2494,7 +2496,8 @@
         display: -ms-flexbox;
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 88px
+        margin-bottom: -17px;
+        margin-top: 26px;
     }
     
     @media (max-width: 1600px) {
@@ -2607,8 +2610,8 @@
     }
     
     .blog-front-column-item h6 {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 17px;
+        line-height: 29px;
         font-family: "oxygen-regular";
         color: #053146;
         -webkit-transition: .3s all ease-out;
@@ -2983,7 +2986,7 @@
     }
     
     .about_section_one a:hover {
-        color: ##053146;
+        color: #053146;
     }
     
     .about_social_icon {
@@ -3107,7 +3110,7 @@
         line-height: 53px;
         font-family: "playfair-regular";
         font-weight: 400;
-        color: ##053146;
+        color: #053146;
         ;
         margin-bottom: 35px
     }
@@ -3558,7 +3561,7 @@
         font-family: "montserrat-bold";
         font-size: 16px;
         padding: 25px 35px;
-        background-color: ##053146;
+        background-color: #053146;
         ;
         display: inline-block;
         -webkit-transition: .3s all ease-out;
@@ -3577,7 +3580,7 @@
         border: none;
         outline: none;
         background-color: #fff;
-        color: ##053146;
+        color: #053146;
         ;
         padding: 15px 30px;
         margin: 12px 0;
@@ -3618,7 +3621,7 @@
     }
     
     .contact_form .wpcf7 input[type="submit"]:hover {
-        background-color: ##053146;
+        background-color: #053146;
     }
     
     .contact_form .wpcf7 textarea {
@@ -3626,7 +3629,7 @@
         border: none;
         outline: none;
         background-color: #fff;
-        color: ##053146;
+        color: #053146;
         ;
         padding: 15px 30px;
         margin: 12px 0;
@@ -3781,7 +3784,7 @@
     }
     
     .enq_page h1 {
-        color: ##053146;
+        color: #053146;
         !important
     }
     
@@ -3791,11 +3794,11 @@
     }
     
     .enq_page input[type="submit"] {
-        background-color: #004A53 !important
+        background-color: #053146!important;
     }
     
     .enq_page input[type="submit"]:hover {
-        background-color: ##053146;
+        background-color: #053146;
         !important
     }
     
@@ -3885,17 +3888,17 @@
         position: relative;
         min-height: 300px;
         background-color: #fff;
-        padding: 100px 83px 25px 25px
+        padding: 100px 83px 25px 25px;
     }
     
     @media (max-width: 1366px) {
         .event_section_blog_content_top {
-            min-height: 230px
+            min-height: 230px;
         }
     }
     
     .event_section_blog_content_top a {
-        color: ##053146;
+        color: #053146;
     }
     
     .event_section_blog_content_top a h5 {
@@ -3906,7 +3909,7 @@
         -webkit-transition: .3s all ease-out;
         -moz-transition: .3s all ease-out;
         -o-transition: .3s all ease-out;
-        transition: .3s all ease-out
+        transition: .3s all ease-out;
     }
     
     .event_section_blog_content_top a h5:hover {
@@ -3924,7 +3927,7 @@
         position: absolute;
         top: 0;
         left: 25px;
-        background: url("../img/CEBR.svg") no-repeat;
+        background: url("") no-repeat;
         width: 68px;
         height: 68px;
         display: flex
@@ -4262,7 +4265,7 @@
     }
     
     .searchandfilter li input[type="submit"]:hover {
-        background-color: ##053146;
+        background-color: #053146;
     }
     
     .category-box .searchandfilter .sf-level-0>input[type="checkbox"] {
@@ -4674,7 +4677,7 @@
     }
     
     .image-content-builder-content a {
-        color: ##053146;
+        color: #053146;
         ;
         font-size: 18px;
         font-family: "montserrat-bold";
@@ -4946,7 +4949,7 @@
         line-height: 22px;
         display: inline-flex;
         color: #fff;
-        background-color: ##053146;
+        background-color: #053146;
         ;
         font-family: "montserrat-bold";
         font-weight: 600;
@@ -5034,7 +5037,7 @@
         line-height: 22px;
         display: inline-flex;
         color: #fff;
-        background-color: ##053146;
+        background-color: #053146;
         ;
         font-family: "montserrat-bold";
         font-weight: 600;
@@ -5297,7 +5300,7 @@
         display: block;
         padding: 20px 15px 20px 0;
         border-bottom: 1px solid rgba(112, 112, 112, 0.2);
-        color: ##053146;
+        color: #053146;
         ;
         margin-right: 15px
     }
@@ -5487,7 +5490,7 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 22px;
-        color: ##053146;
+        color: #053146;
         ;
         margin-top: 50px
     }
@@ -5595,7 +5598,7 @@
     }
     
     .search-no-content input[type="submit"]:hover {
-        background-color: ##053146;
+        background-color: #053146;
     }
     
     .no-page-found {
@@ -5647,7 +5650,7 @@
     }
     
     .go-back a {
-        color: ##053146;
+        color: #053146;
     }
     
     .go-back a p {
@@ -5919,7 +5922,7 @@
             padding: 0;
             position: relative;
             font-size: 100%;
-            color: ##053146;
+            color: #053146;
         }
         *,
         *::after,
@@ -5990,7 +5993,7 @@
             left: 0;
             right: 0;
             width: 100%;
-            z-index: 100
+            z-index: 100;
         }
         @media (max-width: 1023px) {
             .header {
@@ -6124,7 +6127,7 @@
             transform: none
         }
         .navigation .header-nav-menu li a::before {
-            background: ##053146;
+            background: #053146;
             ;
             content: '';
             height: 100%;
@@ -6149,7 +6152,7 @@
             visibility: hidden;
             text-align: left;
             width: max-content;
-            background-color: ##053146;
+            background-color: #053146;
             ;
             display: block;
             z-index: 100;
@@ -6376,7 +6379,7 @@
             z-index: 100;
             padding: 40px 25px 25px 25px;
             overflow: auto;
-            background: ##053146;
+            background: #053146;
             ;
             width: 100%;
             box-sizing: border-box;
@@ -6435,7 +6438,7 @@
         .mobile-header {
             padding-top: 15px;
             padding-bottom: 8px;
-            background: ##053146;
+            background: #053146;
             ;
             position: fixed;
             max-width: 100% !important;
@@ -6528,7 +6531,7 @@
             transform: none
         }
         .navigation-user a::before {
-            background: ##053146;
+            background: #053146;
             ;
             content: '';
             height: 100%;
@@ -6561,7 +6564,7 @@
                 bottom: 0px !important;
                 left: 0px !important;
                 width: 100% !important;
-                background: ##053146;
+                background: #053146;
                 ;
                 padding: 10px
             }
@@ -6592,10 +6595,10 @@
         }
         .cookieConsentContainer .cookieButton a:hover {
             cursor: pointer;
-            background: ##053146;
+            background: #053146;
         }
         .footer-one {
-            background: ##053146;
+            background: #053146;
             ;
             width: 100%;
             padding: 255px 138px 0 138px;
@@ -6699,7 +6702,7 @@
             margin: 20px 0 30px 0
         }
         .footer-two {
-            background: ##053146;
+            background: #053146;
             ;
             padding: 60px 0 75px 0;
             margin-top: 80px
@@ -6772,7 +6775,7 @@
             transition: .3s all ease-out
         }
         .button:hover {
-            background-color: ##053146;
+            background-color: #053146;
         }
         .buttonBig {
             font-size: 29px;
@@ -9315,7 +9318,7 @@
             position: absolute;
             top: 0;
             left: 25px;
-            background: url("../img/CEBR.svg") no-repeat;
+            background: url("") no-repeat;
             width: 68px;
             height: 68px;
             display: flex
@@ -11027,8 +11030,8 @@
     .pageSection-blue p {
         text-align: justify;
         width: 100%;
-        font-size: 28px;
-        line-height: 48px;
+        font-size: 24px;
+        line-height: 43px;
         color: #fff;
         font-family: "montserrat-light";
         margin-left: 70px;
@@ -11133,4 +11136,12 @@
         text-transform: capitalize;
         line-height: 34px;
         margin-left: -50px;
+    }
+    
+    .cont-enq {
+        font-size: 30px;
+        line-height: 45px;
+        color: #053146;
+        font-family: "montserrat-light";
+        font-weight: 300;
     }
